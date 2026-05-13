@@ -5,26 +5,7 @@ html {
 
 body {
 	width: 100vw;
+	min-height: 100vh;
 	margin: 0;
 }
-
-/* HOME PAGE */
-
-header {
-	padding: 3rem;
-	margin: 0 auto;
-	text-align: center;	
-}
-#header {
-	margin: 0 auto;
-}
-
-main {
-	padding: 0 3rem;
-	margin: 0 auto;
-	text-align: center;
-
-}
-
-
 
