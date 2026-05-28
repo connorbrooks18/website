@@ -13,7 +13,7 @@ html {
 body {     
 	width: 100%;
 	overflow-x: hidden;
-	/*height: calc(100vw * (8/8));*/
+	min-height: calc(100vw * (8/8));
 	margin: 0;
 	/*font-size: calc(100vw / 70);*/
 	position: relative;
