@@ -53,3 +53,21 @@ a {
 	left: 60%;
 }
 
+#back-to-home{
+	position: absolute;
+	top: 1rem;
+	right: 0%;
+	translate: -100% 0%;
+	color: white;
+	margin: 0;
+	padding: 0.5rem;
+	background-color: black;
+}
+
+
+/* LIBRARY */
+
+#library-body{
+	padding: 3rem;
+}
+
