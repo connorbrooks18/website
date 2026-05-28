@@ -13,9 +13,9 @@ html {
 body {     
 	width: 100%;
 	overflow-x: hidden;
-	height: calc(100vw * (8/8));
+	/*height: calc(100vw * (8/8));*/
 	margin: 0;
-	font-size: calc(100vw / 70);
+	/*font-size: calc(100vw / 70);*/
 	position: relative;
 }
 
@@ -38,19 +38,21 @@ a {
 
 #desk {
 	left: 50%;
-	bottom: 0em;
+	bottom: 1em;
 }
 
 #book {
-    bottom: 11em;
-	left: 30%;
+    bottom: 12em;
+	left: 15rem;
 	font-weight: bold;
+	color: #592420;
 	/*background-color: white;*/
 }
 
 #lamp {
-	bottom:15rem;
+	bottom:16rem;
 	left: 60%;
+	color: #414b5c;
 }
 
 #back-to-home{
