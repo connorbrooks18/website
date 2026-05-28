@@ -12,6 +12,7 @@ html {
 /* 104 pixel width */
 body {     
 	width: 100%;
+	overflow-x: hidden;
 	height: calc(100vw * (8/8));
 	margin: 0;
 	font-size: calc(100vw / 70);
@@ -21,14 +22,29 @@ body {
 pre {
 	margin: 0;
 	padding: 0;
+	font-family: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.ascii{
+    position: absolute;
+	translate: -50% 0%;
+	margin: 0;
 }
 
 #desk {
-    position: absolute;
 	left: 50%;
 	bottom: 0em;
-	translate: -50% 0%;
-	margin: 0;
+}
 
+#book {
+    bottom: 11em;
+	left: 30%;
+	font-weight: bold;
+	/*background-color: white;*/
 }
 
