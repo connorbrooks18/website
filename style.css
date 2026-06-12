@@ -13,7 +13,7 @@ html {
 body {     
 	width: 100%;
 	overflow-x: hidden;
-	min-height: calc(100vw * (8/8));
+	min-height: 30rem;
 	margin: 0;
 	/*font-size: calc(100vw / 70);*/
 	position: relative;
@@ -66,10 +66,30 @@ a {
 	background-color: black;
 }
 
+#paper{
+	bottom: 14rem;
+	font-weight: bold;
+	left:53%;
+	color: #4c4b41;
+}
+
+#sun {
+	scale: 0.5;
+	right: 0;
+	top: 0;
+	font-weight: bold;
+	color: #ffee00;
+	translate: 25% -25%;
+}
+
 
 /* LIBRARY */
 
 #library-body{
+	padding: 3rem;
+}
+
+#writings-body{
 	padding: 3rem;
 }
 
