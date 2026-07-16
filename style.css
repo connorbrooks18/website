@@ -14,13 +14,12 @@ body {
 a {
 }
 
-/* LIBRARY */
+.small {
+    font-size: 90%;
 
-#library-body{
-	padding: 3rem;
 }
 
-#writings-body{
-	padding: 3rem;
+.grey {
+    color: grey;
 }
 
